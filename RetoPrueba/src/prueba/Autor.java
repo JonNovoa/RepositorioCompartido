@@ -1,7 +1,6 @@
 package prueba;
 
 public class Autor {
-
 	private String dni;
 	private String nombre;
 	private String compania;
@@ -14,11 +13,8 @@ public class Autor {
 		this.compania = compania;
 	}
 
-
 	public Autor() {
 		super();
 	}
-	
-	
-	
+
 }
