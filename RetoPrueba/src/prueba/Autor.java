@@ -13,6 +13,16 @@ public class Autor {
 		this.nombre = nombre;
 		this.compania = compania;
 	}
+	
+	
+
+
+	@Override
+	public String toString() {
+		return "Autor [dni=" + dni + ", nombre=" + nombre + ", compania=" + compania + "]";
+	}
+
+
 
 
 	public Autor() {
