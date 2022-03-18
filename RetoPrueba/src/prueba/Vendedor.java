@@ -9,6 +9,16 @@ public class Vendedor {
 	private int edad;
 	
 	
+	
+	
+	
+	
+	@Override
+	public String toString() {
+		return "Vendedor [dni=" + dni + ", fContraracion=" + fContraracion + ", edad=" + edad + "]";
+	}
+
+
 	public Vendedor(String dni, LocalDate fContraracion, int edad) {
 		super();
 		this.dni = dni;
