@@ -13,8 +13,8 @@ public class Autor {
 		this.compania = compania;
 	}
 
-
 	public Autor() {
 		super();
 	}
+
 }
