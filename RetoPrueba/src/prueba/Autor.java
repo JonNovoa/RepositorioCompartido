@@ -40,6 +40,11 @@ public class Autor {
 	public void setCompania(String compania) {
 		this.compania = compania;
 	}
+
+	@Override
+	public String toString() {
+		return "Autor [dni=" + dni + ", nombre=" + nombre + ", compania=" + compania + "]";
+	}
 	
 	
 
